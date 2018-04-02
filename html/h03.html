@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>css内联样式 style 和表格</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+      .tb{
+        font-size: 40px; text-align: center; width: 600px; margin: 0px auto;
+      }
+      .tb th{
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body style="background-color: #003459">
+    <div style="text-align: right">
+      <a href="index.html" style="color: black">返回首页</a>
+    </div>
+    <p style="font-size:60px;color:yellow;font-family:arial">这是一个段落</p>
+    <img src="image/1.JPG" height="200px" width="200px">
+    <div style="text-align: center">
+    <table border="1" class="tb" cellpadding="50" cellspacing="0">
+      <caption >姓名表</caption>
+      <thead>
+        <tr>
+          <th>编号</th>
+          <th>姓名</th>
+          <th>性别</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2" style="background-color: red;">1</td>
+          <td rowspan="2">zhang</td>
+        </tr>
+        <tr>
+          <td rowspan="2">2</td>
+          <td>李四</td>
+        </tr>
+        <tr>
+          <td colspan="2">李四</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table border="1" style=" font-size: 40px; text-align: center; width: 600px; margin: 0px auto;" cellpadding="50" cellspacing="0">
+      <caption >姓名表</caption>
+        <colgroup>
+          <col span="2" style="background-color: #222229;">
+          <col style="background-color: blue;">
+        </colgroup>
+      <thead>
+        <tr>
+          <th>编号</th>
+          <th>姓名</th>
+          <th>性别</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2">1</td>
+          <td rowspan="2">zhang</td>
+        </tr>
+        <tr>
+          <td rowspan="2">2</td>
+          <td>李四</td>
+        </tr>
+        <tr>
+          <td colspan="2">李四</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">8</td>
+        </tr>
+      </tfoot>
+
+    </table>
+  </div>
+  </body>
+</html>
