@@ -1,0 +1,39 @@
+.h200 {
+    height: 200px;
+}
+
+.w300 {
+    width: 300px;
+}
+
+.h400 {
+    height: 400px;
+}
+
+.w600 {
+    width: 600px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.lf {
+    float: left;
+}
+
+.rf {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
