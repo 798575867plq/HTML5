@@ -1,0 +1,33 @@
+#d1,#d2,#d3,#d4,#d5{
+  width: 200px;
+  height: 150px;
+  padding: 20px 0px 0px 20px;
+  margin-top: 30px;
+}
+
+#d1{
+  border-radius: 25px 10px 40px 80px;
+  background-color: #888888;
+}
+
+#d2{
+  border-radius: 20px 40px 60px;
+  border: 1px solid #888888;
+}
+
+#d3{
+  border-radius: 30px 70px;
+  background: url('../../image/1.JPG');
+  background-position: left top;
+  background-repeat: repeat;
+}
+
+#d4{
+  border-radius: 10px/80px;
+  background-color: #888888;
+}
+
+#d5{
+  border-radius: 50%;
+  background-color: #888888;
+}

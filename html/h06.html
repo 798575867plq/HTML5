@@ -8,11 +8,62 @@
   <div>
     <a href="index.html">返回首页</a>
     <form>
+
       <input type="text">
       <textarea rows="4"></textarea>
       <input type="password">
-      <input type="radio" name="sex" value="f">
-      <input type="radio" name="sex" value="m">
+      <input type="radio" name="sex" value="f">女
+      <input type="radio" name="sex" value="m">男
+      <input type="checkbox" value="1">空空
+      <input type="checkbox" value="2">lkk
+      <input type="checkbox" value="3">opp
+
+    </form>
+    <form action="h01.html" method="get" accept-charset="utf-8">
+      Username:<input type="text" name="username"><input type="submit" vlue="提交">
+
+      <fieldset>
+        <legend>
+          标题
+        </legend>
+        姓名：<input type="text"><br>
+        性别：<input type="text"><br>
+        年龄：<input type="text">
+      </fieldset>
+
+      <select autofocus>
+        <option value="1111111111">11111111111</option>
+        <option value="222222222222">22222222222222</option>
+        <option value="33333333333">3333333333333</option>
+        <option value="4444444444">444444444444</option>
+      </select>
+
+      <select disabled>
+        <option value="11">11111111111</option>
+        <option value="222222222222">22222222222222</option>
+        <option value="33333333333">3333333333333</option>
+        <option value="4444444444">444444444444</option>
+      </select>
+
+      <select multiple name="1234" size="2">
+        <option value="1111111111">11111111111</option>
+        <option value="222222222222">22222222222222</option>
+        <option value="33333333333">3333333333333</option>
+        <option value="4444444444">444444444444</option>
+      </select>
+
+      <select>
+        <optgroup label="12">
+          <option value="1111111111">11111111111</option>
+          <option value="222222222222">22222222222222</option>
+        </optgroup>
+        <optgroup label="34">
+          <option value="33333333333">3333333333333</option>
+          <option value="4444444444">444444444444</option>
+        </optgroup>
+      </select>
+
+      <button type="button">按钮</button>
     </form>
   </div>
 </body>

@@ -1,0 +1,54 @@
+.d2 ,.d1{
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+}
+
+.d2{
+  transform: rotate(30deg);
+}
+
+.d3{
+  border: 2px solid black;
+  border-radius: 60px;
+  background-color: #dddddd;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 100px;
+  box-shadow: 20px 20px 10px red;
+  display: flex !important;
+  word-break: break-all;
+}
+
+.d31{
+  width: 300px;
+}
+
+.d4{
+  width: 300px;
+  height: 200px;
+  border: 40px solid transparent;
+  background-color: yellow;
+  margin-top: 100px;
+  border-image: url('../../image/1.JPG') 300 300 round;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.d5{
+  width: 300px;
+  height: 200px;
+  border: 40px solid transparent;
+  background-color: yellow;
+  margin-top: 100px;
+  border-image: url('../../image/1.JPG') 300 300 stretch;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
