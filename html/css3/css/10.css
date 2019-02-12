@@ -1,0 +1,20 @@
+.c1{
+  column-count: 3;
+  column-gap: 80px;
+  column-rule-style: dotted;
+  column-rule-width: 5px;
+  column-rule-color: red;
+}
+
+.c2{
+  column-width: 100px;
+  column-gap: 80px;
+  column-rule-style: dotted;
+  column-rule-width: 5px;
+  column-rule-color: red;
+  /*上面3句可简写为column-rule:dotted 5px red;*/
+}
+
+h2{
+  column-span: all;
+}

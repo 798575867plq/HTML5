@@ -1,0 +1,70 @@
+.c1 {
+  text-shadow: 5px 5px 5px #fff000;
+}
+
+.c2 {
+  width: 200px;
+  height: 100px;
+  background-color: #fff000;
+  box-shadow: 10px 20px 30px #888888;
+}
+
+#c3 {
+  position: relative;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  background: white;
+  width: 800px;
+}
+
+#c3 img {
+  width: 100%;
+  border: 1px solid black;
+  border-style: inset;
+}
+
+#c3::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+  width: 70%;
+  left: 15%;
+  height: 100px;
+  bottom: 0;
+}
+
+div.card {
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.header {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  font-size: 40px;
+}
+
+div.container {
+  padding: 10px;
+}
+
+.c4 {
+  width: 300px;
+  border: 1px solid black;
+  word-wrap: break-word;
+}
+
+.c5 {
+  width: 400px;
+  border: 1px solid black;
+  word-break: keep-all;
+}
+
+.c6 {
+  width: 300px;
+  border: 1px solid black;
+  word-break: break-all;
+}

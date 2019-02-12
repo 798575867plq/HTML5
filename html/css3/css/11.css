@@ -1,0 +1,30 @@
+.c1{
+  width:200px;
+  padding:10px 40px;
+  border:2px solid;
+  resize: both;
+  overflow: auto;
+}
+
+.container{
+  width:30em;
+  border:1em solid;
+}
+
+.c2{
+  box-sizing: border-box;
+  width:50%;
+  border:1em solid red;
+  float: left;
+}
+
+.c3{
+  width:200px;
+  height: 100px;
+  padding:50px;
+  margin:70px;
+  border:2px solid black;
+  outline: 2px solid red;
+  outline-offset: 15px;
+  word-break: break-all;
+}

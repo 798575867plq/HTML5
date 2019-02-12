@@ -1,14 +1,53 @@
-.a1{
-  background-image:url('../../image/1.JPG'),url('../../image/2.JPG');
-  background-position: right bottom,left top;
-  background-repeat: no-repeat,repeat;
+.a1 {
+  background-image: url('../../image/1.JPG'), url('../../image/2.JPG');
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
   padding: 150px;
 }
 
-.a2{
-  background:url('../../image/1.JPG');
-  background-size: 100% 100%;
+.a2 {
+  background: url('../../image/3.JPG');
+  background-size: 80px 60px;
   background-repeat: no-repeat;
   padding: 40px;
 }
 
+.a3 {
+  background: url('../../image/3.JPG');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  padding: 200px;
+  border: 50px dotted black;
+  background-position: left;
+}
+
+.a4 {
+  background: url('../../image/3.JPG');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  padding: 200px;
+  border: 50px dotted black;
+  background-position: left;
+}
+
+.a5 {
+  background: url('../../image/3.JPG');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  padding: 200px;
+  border: 50px dotted black;
+  background-position: left;
+}
+
+.a6 {
+  background: url('../../image/3.JPG');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  padding: 200px;
+  border: 50px dotted black;
+  background-position: left;
+}

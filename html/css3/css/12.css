@@ -1,0 +1,111 @@
+.c1 img{
+  border-radius: 8px;
+  float: left;
+}
+
+.c2 img{
+  border-radius: 50%;
+  float: left;
+}
+
+.c3 a{
+  display:inline-block;
+  border:1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.c3 a:hover{
+  box-shadow: 0 0 2px 1px rgba(0,199,200,1);
+}
+
+.c4 img{
+  max-width: 100%;
+  height: auto;
+}
+
+.c5{
+  position: relative;
+}
+
+.center{
+  position: absolute;
+  left: 0;
+  top:50%;
+  width:100%;
+  text-align: center;
+  font-size:18px;
+  margin-top:10px;
+}
+
+.bottom{
+  position: absolute;
+  bottom: 8px;
+  right: 20px;
+  font-size:8px;
+}
+
+.c5 img{
+  width:100%;
+  height: 300px;
+  opacity: 0.3;
+}
+
+.c6{
+  width:80%;
+  background-color: white;
+  margin:30px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.container{
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.c7 img{
+  width:33%;
+  float: left;
+  max-width: 500px;
+}
+
+.c701{
+  filter:blur(4px);
+}
+
+.c702{
+  filter:brightness(300%);
+}
+
+.c703{
+  filter:contrast(180%);
+}
+
+.c704{
+  filter: grayscale(180%);
+}
+
+.c705{
+  filter: drop-shadow(8px 8px 10px green);
+}
+
+.c706{
+  filter: hue-rotate(90deg);
+}
+
+.c707{
+  filter:invert(100%);
+}
+
+.c708{
+  filter: opacity(50%);
+}
+
+.c709{
+  filter: saturate(7);
+}
+
+.c710{
+  filter: sepia(100%);
+}

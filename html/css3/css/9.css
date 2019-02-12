@@ -1,0 +1,50 @@
+.c1{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  animation: myfirst 5s;
+}
+
+@keyframes myfirst{
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+.c2{
+  width:100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: two 5s;
+}
+
+@keyframes two{
+  0% {background: red;left:0px;top:0px;}
+  25% {background: yellow;left:300px;top:0px;}
+  50% {background: green;left:300px;top:300px;}
+  75% {background: blue;left:0px;top:300px;}
+  100% {background: red;left:0px;top:0px;}
+}
+
+.c3{
+  width:100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation-name: three;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  /*上面6句可简写为animation:three 5s linear 1s infinite alternate;  效果一样*/
+  animation-play-state: running;
+}
+
+@keyframes three{
+  0% {background: red;left:0px;top:0px;}
+  25% {background: yellow;left:300px;top:0px;}
+  50% {background: green;left:300px;top:300px;}
+  75% {background: blue;left:0px;top:300px;}
+  100% {background: red;left:0px;top:0px;}
+}

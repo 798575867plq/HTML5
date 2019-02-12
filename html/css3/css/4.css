@@ -1,0 +1,84 @@
+.g1 {
+  height: 200px;
+  width: 1000px;
+  background: linear-gradient(red, blue, yellow);
+}
+
+.g2 {
+  height: 200px;
+  width: 1000px;
+  background: linear-gradient(to right, red, blue);
+}
+
+.g3 {
+  height: 200px;
+  width: 1000px;
+  background: linear-gradient(to bottom right, red, blue);
+}
+
+.g4 {
+  height: 200px;
+  width: 1000px;
+  background: linear-gradient(60deg, red, blue);
+}
+
+.g5 {
+  height: 200px;
+  width: 1000px;
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+}
+.g6 {
+  height: 200px;
+  width: 1000px;
+  background: linear-gradient(
+    to right,
+    rgba(225, 0, 0, 0),
+    rgba(0, 58, 134, 1)
+  );
+}
+.g7 {
+  height: 200px;
+  width: 1000px;
+  background: repeating-linear-gradient(yellow, red 10%, green 20%);
+}
+.g8 {
+  height: 200px;
+  width: 1000px;
+  background: radial-gradient(yellow, red, green);
+}
+.g9 {
+  height: 200px;
+  width: 1000px;
+  background: radial-gradient(yellow 10%, red 20%, green 10%);
+}
+.g10 {
+  height: 200px;
+  width: 1000px;
+  background: radial-gradient(circle, yellow 10%, red 20%, green 10%);
+}
+.g11 {
+  height: 200px;
+  width: 1000px;
+  background: radial-gradient(
+    60% 55%,
+    closest-side,
+    blue,
+    green,
+    yellow,
+    black
+  );
+}
+.g12 {
+  height: 200px;
+  width: 1000px;
+  background: repeating-radial-gradient(red, yellow 10%, green 15%);
+}

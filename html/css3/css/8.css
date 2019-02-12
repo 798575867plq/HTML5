@@ -1,0 +1,38 @@
+.c1{
+  width:100px;
+  height: 100px;
+  background-color: red;
+  transition: width 2s;
+}
+
+.c1:hover{
+  width:300px;
+}
+
+.c2{
+  width:200px;
+  height: 200px;
+  background-color: red;
+  transition: width 2s,height 2s,transform 2s;
+}
+
+.c2:hover{
+  transform: rotate(180deg);
+  width:300px;
+  height: 300px;
+}
+
+.c3{
+  width:100px;
+  height: 100px;
+  background-color: red;
+  transition-property: width;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+  /*上面4句可简写为transition:width 1s linear 1s;  效果一样*/
+}
+
+.c3:hover{
+  width:500px;
+}
